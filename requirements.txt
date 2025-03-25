@@ -1,0 +1,7 @@
+opencv-python 
+numpy 
+tensorflow 
+tensorflow-hub 
+deepface
+yt-dlp
+hypercorn
