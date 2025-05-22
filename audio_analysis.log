@@ -1,0 +1,14 @@
+2025-05-22 17:47:41,590 - INFO - Received request for audio analysis.
+2025-05-22 17:47:41,590 - ERROR - Error in audio analysis: 'str' object has no attribute 'filename'
+Traceback (most recent call last):
+  File "/Users/deepeshjha/Desktop/Video-Server/Audio_Server/audio_main.py", line 26, in audio_analysis
+    transcription_path = os.path.join(temp_dir, transcription_file.filename)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'filename'
+2025-05-22 17:48:04,077 - INFO - Received request for audio analysis.
+2025-05-22 17:48:04,078 - ERROR - Error in audio analysis: 'str' object has no attribute 'filename'
+Traceback (most recent call last):
+  File "/Users/deepeshjha/Desktop/Video-Server/Audio_Server/audio_main.py", line 26, in audio_analysis
+    transcription_path = os.path.join(temp_dir, transcription_file.filename)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'filename'
